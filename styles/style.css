@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+p {
+font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+body {
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+}
+.wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+.btn-primary {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff900e;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+
+/* header-section start---------------------------------------------------------------------- */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    align-items: center;
+}
+.nav li {
+    list-style: none;
+}
+.nav a {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+.nav-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+}
+.nav-menu {
+    display: flex;
+    gap: 80px;
+}
+.header-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+    text-align: center;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-content img{
+    margin-bottom: 50px;
+    width: 70vw;
+    height: auto;
+}
+.header-content-desc {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+}
+/* header ends here----------------------------------------------------------------- */
+
+/* features starts here ---------------------------------------------------------------*/
+.features{
+    display: flex;
+    gap: 50px;
+    margin: 0px auto;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick-list-features{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+.quick-list-features> *{
+    flex: 1;
+}
+span{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+    }
+b{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.features-title{
+    font-size: 45px;
+    color: #727272;
+    line-height: 53px;
+    margin-bottom: 25px;
+}
+.feature-title-desc{
+    margin-bottom: 25px;
+}
+.quick-list-features{
+    row-gap: 20px;
+    column-gap: 20px;
+}
+/* feature ends here ----------------------------------------------------------*/
+/* feature2 starts here -------------------------------------------------------*/
+.feature2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 150px;
+}
+.feature2 > * {
+    flex: 1;
+    width: 100%;
+   
+}
+.feature2-context-title h3 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 5px;
+}
+.feature2-context-title {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.feature2-element-1 {
+    width: 5px;
+    height: 106px;
+    background: #ff900e;
+}
+.feature-element-2 {
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    right: 450px;
+    bottom: -70px;
+    background: #ff900e;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-element-2 .p1 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.feature-element-2 span {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.feature2-context-desc {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.feature2-context-feature-list {
+    display: grid;
+    row-gap: 20px;
+}
+.feature2-list {
+    display: grid;
+    row-gap: 10px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature2-list h3 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.feature2-image{
+    position: relative;
+}
+/* feature2 ends here----------------------------------------------------- */
+/* facts starts here -----------------------------------------------------*/
+.facts {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.facts-info {
+    align-self: start;
+}
+.facts-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #131313;
+    margin-bottom: 50px;
+}
+.facts-card-list {
+    display: flex;
+    gap: 50px;
+}
+.facts-card {
+    padding: 30px;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.facts-card:hover img {
+    transform: scale(1.3);
+}
+.facts-card img {
+    transition: transform 1s;
+    margin-bottom: 10px;
+}
+.facts-card-digit {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+.facts-card-text {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+.facts-info p {
+    margin-bottom: 53px;
+}
+/* facts ends here -------------------------------------------------------*/
+/* skills portion starts her-------------------------------------------- */
+.skill-image{
+    width: 100%;
+    padding-left: 7%;
+}
+.skill-div {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 50px;
+}
+.skill-details{
+    width: 100%;
+}
+.skill-details-2 {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    row-gap: 0px;
+    align-items: center;
+    width: 100%;
+}
+.skill-details-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 45px;
+    color: #282828;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.skill-details-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #282828;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.skill-list-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right center;
+    padding-bottom: 20px;
+    color: #282828;
+}
+
+.skill-list-details {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #282828;
+}
+.skill-list {
+    padding-right: 40px;
+    text-align: center;
+}
+
+/* skills portion ends here--------------------------------------------------- */
+/* sponser starts here----------------------------------------------------------- */
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.sponsor-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom:40px;
+}
+.sponsor-info p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sponsor-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    text-align: center;
+    column-gap: 80px;
+    row-gap: 50px;
+}
+.sponsor-list img {
+    filter: grayscale(100%);
+    
+}
+/* sponser ends here ------------------------------------------------------*/
+/* footer starts here -----------------------------------------------------*/
+.footer {
+    background: #fff4e7;
+    width: 75vw;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 0.8em;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.02);
+}
+.footer p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+    padding: 1.8em;
+    text-align: center;
+}
+/* footer ends here------------------------------------------------------------ */
